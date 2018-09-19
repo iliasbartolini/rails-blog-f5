@@ -1,0 +1,5 @@
+<%= form_for([ @post, Comment.new ], remote: true) do |form| %>
+  Add a comment: <br>
+  <%= form.text_area :body, size: '50x5' %> <br>
+  <%= form.submit %>
+<% end %>
