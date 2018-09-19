@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+gem install bundler
+bundle install
+rails server
+```
 
-Things you may want to cover:
+Quick and ugly variation of DHH demo on https://rubyonrails.org/.
+See video: https://www.youtube.com/watch?v=OaDhY_y8WTo
+I picked a similar license to the Rails codebase which is MIT.
 
-* Ruby version
+That is basically a variation of the "Getting Started with Rails" blog guide
+https://guides.rubyonrails.org/getting_started.html
+Creative Commons Attribution-ShareAlike 4.0 International License
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Credits go to them ;)
